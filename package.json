@@ -22,7 +22,7 @@
     "multi-device"
   ],
   "dependencies": {
-    "@adiwajshing/baileys": "git+https://github.com/fdhlgrphy/Baileys.git",
+    "@adiwajshing/baileys": "github:neoxr/bails",
     "@adiwajshing/keyed-db": "^0.2.4",
     "awesome-phonenumber": "^3.3.0",
     "axios": "^0.27.2",
