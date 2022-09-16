@@ -75,7 +75,7 @@ try {
 	const isGroup = from.endsWith('@g.us')
 	const groupMetadata = isGroup ? await conn.groupMetadata(from) : ''
 	const groupName = isGroup ? groupMetadata.subject : ''
-	const groupDesc = isGroup ? groupMetadata.desc.toString('utf8') : ''
+	const groupDesc = isGroup ? groupMetadata.desc : ''
 	const groupId = isGroup ? groupMetadata.id : ''
 	const number = [`global.owner@s.whatsapp.net`]
 	const isOwner = number.includes(sender)
